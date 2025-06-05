@@ -14,3 +14,11 @@ https://hub.docker.com/r/selenium/standalone-firefox
 docker pull selenium/standalone-firefox
 docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-firefox:latest
 
+DOCKER COMPOSE
+cd docker
+docker-compose -f .\docker-compose_standalone.yml up
+http://localhost:4441/ui/
+
+VNC
+http://localhost:7901/
+http://localhost:7902/

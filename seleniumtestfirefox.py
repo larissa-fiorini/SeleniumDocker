@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-SELENIUM_SERVER_URL = "http://localhost:4444/wd/hub"
+SELENIUM_SERVER_URL = "http://localhost:4442/wd/hub"
 
 options = Options()
 options.headless = False
