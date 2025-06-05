@@ -1,0 +1,10 @@
+https://hub.docker.com/r/selenium/standalone-chrome
+
+Pull docker image:
+docker pull selenium/standalone-chrome
+
+Run docker image:
+docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
+
+After that, it`s ready to run the tests:
+py seleniumtest.py
