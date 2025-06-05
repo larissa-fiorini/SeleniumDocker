@@ -6,7 +6,7 @@ SELENIUM_SERVER_URL = "http://localhost:4444/wd/hub"
 
 options = Options()
 driver=webdriver.Remote(
-    command_executor="http://localhost:4444/wd/hub",
+    command_executor=SELENIUM_SERVER_URL,
     options=options
 )
 
